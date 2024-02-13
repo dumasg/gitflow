@@ -24,7 +24,7 @@
     </p>
 
 
-        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+<!--        <div id="carouselExampleDark" class="carousel carousel-dark slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -54,7 +54,15 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </div>-->
 
+ <div class="container d-flex d-wrap ">
+     <div class="container-img">
+         <img src="https://placehold.co/6000x3000"  alt="" >
 
+     </div>
+     <div class="container-img">
+         <img src="https://placehold.co/6000x3000" alt="">
+     </div>
+ </div>
     <?php include "../views/footer.php"; ?>
