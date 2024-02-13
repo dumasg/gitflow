@@ -1,0 +1,10 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer{
+    margin-top: 100px;
+    max-height: 200px;
+    background: rgba(0, 12, 38, 0.69);
+}
