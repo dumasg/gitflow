@@ -10,3 +10,19 @@
     <title>Notre CV</title>
 </head>
 <body>
+<header>
+    <nav class="navbar">
+        <div>
+            <ul class="noneOrdonerListe">
+                <a href="/">Accueil</a>
+                <a href="/pages/CV1.php">CV - 1</a>
+                <a href="/pages/CV2.php">CV - 2</a>
+            </ul>
+        </div>
+        <div>
+            <ul class="noneOrdonerListe">
+                <a href="/pages/contact.php">Contact</a>
+            </ul>
+        </div>
+    </nav>
+</header>

@@ -8,3 +8,23 @@
     max-height: 200px;
     background: rgba(0, 12, 38, 0.69);
 }
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 12, 38, 0.69);
+}
+.noneOrdonerListe{
+    padding: 0;
+    margin: 20px;
+    > a {
+        text-decoration: none;
+        color: black;
+        padding: 0 20px;
+        color: white;
+    }
+    > a:hover {
+        cursor: pointer;
+        color: cornflowerblue;
+    }
+}
