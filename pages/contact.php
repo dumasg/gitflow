@@ -1,7 +1,7 @@
 <?php include"../views/header.php"?>
 <div class="d-flex justify-content-center align-content-center bg-danger align-items-stretch">
     <form method="post" action="./contact.php">
-        <h3>Vous souhaitez contacter<?= $_POST["developper"] ?></h3>
+        <h3>Vous souhaitez contacter <?=$_POST["name"];?></h3>
         <label>Nom :<br>
             <input type="text" name="last name">
         </label>

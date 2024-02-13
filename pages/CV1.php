@@ -8,9 +8,9 @@
 
 <?php include '../views/header.php' ?>
 
-<div class="d-flex justify-content-center text-decoration-underline"> <h1> Curricullum Vitae</h1> </div>
+<div class="d-flex justify-content-center text-decoration-underline"><h1> Curricullum Vitae</h1></div>
 
-<div class="d-flex justify-content-start"> <h3>À propos de moi :</h3> </div>
+<div class="d-flex justify-content-start"><h3>À propos de moi :</h3></div>
 
 <div class="d-flex justify-content-center">
 <span class="text-bg-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus eros
@@ -27,30 +27,35 @@
 <br>
 <div class="d-flex flex-col justify-content-center justify-content-evenly">
     <div>
-    <ul>
-        <li> Compétence 1</li>
-        <li> Compétence 2</li>
-        <li> Compétence 3</li>
-        <li> Compétence 4</li>
-        <li> Compétence 5</li>
+        <ul>
+            <li> Compétence 1</li>
+            <li> Compétence 2</li>
+            <li> Compétence 3</li>
+            <li> Compétence 4</li>
+            <li> Compétence 5</li>
 
-    </ul>
-        </div>
+        </ul>
+    </div>
     <div>
-    <ul>
-        <li> Poste 1</li>
-        <li> Poste 2</li>
-        <li> Poste 3</li>
-        <li> Poste 4</li>
-        <li> Poste 5</li>
+        <ul>
+            <li> Poste 1</li>
+            <li> Poste 2</li>
+            <li> Poste 3</li>
+            <li> Poste 4</li>
+            <li> Poste 5</li>
 
-    </ul>
+        </ul>
     </div>
 
 </div>
 
+<div class="d-flex justify-content-center">
+    <form action="contact.php" method="post">
+        <input type="hidden" name="name" id="name" value="Loremman">
 
-
+            <input type="submit" value="Contacter">
+    </form>
+</div>
 
 
 <?php include '../views/footer.php' ?>
