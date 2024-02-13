@@ -8,10 +8,11 @@
 
 <?php include '../views/header.php' ?>
 
-<h1> Curricullum Vitae</h1>
+<div class="d-flex justify-content-center text-decoration-underline"> <h1> Curricullum Vitae</h1> </div>
 
-<h3>À propos de moi</h3>
+<div class="d-flex justify-content-start"> <h3>À propos de moi :</h3> </div>
 
+<div class="d-flex justify-content-center">
 <span class="text-bg-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus eros
     felis, a laoreet turpis sollicitudin vitae. Proin aliquet venenatis mauris
     vitae hendrerit. Integer ligula dolor, fringilla quis massa hendrerit, lobortis
@@ -21,19 +22,32 @@
     Maecenas suscipit ultricies neque, pulvinar molestie arcu mollis quis.
     Duis rutrum rutrum accumsan. Nullam sed risus nunc. Aliquam nec consectetur urna,
     nec porttitor tortor.
+</span>
+</div>
+<br>
+<div class="d-flex flex-col justify-content-center justify-content-evenly">
+    <div>
+    <ul>
+        <li> Compétence 1</li>
+        <li> Compétence 2</li>
+        <li> Compétence 3</li>
+        <li> Compétence 4</li>
+        <li> Compétence 5</li>
 
-Proin euismod sem scelerisque, condimentum neque non, ultrices tellus. Nullam
-    turpis libero, rutrum eu lobortis non, aliquam nec nisi. Sed sapien nisi,
-    porta tincidunt tellus et, cursus sagittis nulla. Sed eu massa blandit ante
-    mattis sagittis. Ut vulputate vulputate nunc. Fusce a urna et orci tristique
-    tempor sed id dolor. Phasellus pretium eros sed augue egestas, id pellentesque
-    velit luctus. Fusce sollicitudin, ligula id auctor luctus, ligula neque tempor
-    orci, quis commodo ligula dolor tincidunt metus. Curabitur feugiat aliquet velit
-    in ultrices. Donec nunc tellus, rhoncus quis tempor sit amet, aliquam id lacus.
-    Donec quis rhoncus erat. Donec dignissim porta tellus, sed posuere velit fermentum
-    nec. Pellentesque tincidunt sodales orci non euismod. </span>
+    </ul>
+        </div>
+    <div>
+    <ul>
+        <li> Poste 1</li>
+        <li> Poste 2</li>
+        <li> Poste 3</li>
+        <li> Poste 4</li>
+        <li> Poste 5</li>
 
+    </ul>
+    </div>
 
+</div>
 
 
 
